@@ -1,0 +1,681 @@
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+      overflow-y: scroll;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* header */
+
+  #header {
+      padding: 0 80px;
+      height: 40px;
+      max-width: 1600px;
+      margin: 0 auto;
+
+  }
+
+  .navbar {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .logo img {
+      width: 100px;
+
+  }
+
+  .logo {
+      display: flex;
+  }
+
+  .logo img {
+      margin-right: 30px;
+  }
+
+  .search-btn-none,
+  .search-btn {
+      background-color: transparent;
+      border: none;
+  }
+
+  .navbar a,
+  .search-btn {
+      padding: 16px 8px 10px;
+      font-size: 12px;
+
+  }
+
+  #header a:hover {
+      text-decoration: underline;
+  }
+
+
+  .bar-none {
+      display: none;
+  }
+
+  /* main */
+
+
+  .main-contain a {
+      color: white;
+      text-align: center;
+      display: block;
+      background-color: #0067b8;
+      width: 100%;
+      height: 58px;
+      padding-top: 20px;
+      text-decoration: dashed !important;
+  }
+
+  .main-contain:hover {
+      text-decoration: underline;
+  }
+
+  .main-highlight {
+      background-image: url(/assets/img/Highlight-Hero-Surface-Family-Platinum-Windows-11_VP4-1399x600.avif);
+      width: 100%;
+      height: 435px;
+      background-size: cover;
+      background-position: center center;
+      display: flex;
+      justify-content: end;
+      max-width: 1800px;
+      margin: 0 auto;
+  }
+
+  .main-text {
+      width: 30%;
+      margin: auto 120px;
+  }
+
+  .main-text h1 {
+      font-weight: 100;
+      margin-bottom: 20px;
+
+  }
+
+  .main-shop {
+      margin: 30px 0;
+      font-size: 15px;
+  }
+
+  .main-shop .shop {
+      background-color: #0067b8;
+      color: white;
+      padding: 10px;
+      margin-right: 10%;
+  }
+
+  .main-shop .shop:hover {
+      background-color: #065a8e;
+  }
+
+  .main-shop .hover-shop:hover {
+      text-decoration: underline;
+  }
+
+  .change {
+      text-align: center;
+      font-size: 30px;
+      margin-top: 20px;
+  }
+
+  .change .circle {
+      border: 1px solid black;
+      border-radius: 100%;
+      width: 12px;
+      height: 12px;
+      display: inline-block;
+  }
+
+  .change .dot {
+      background-color: black;
+  }
+
+  .aem-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 1600px;
+      margin: 0 auto;
+  }
+
+  .microsoft {
+      width: 14%;
+      margin-top: 5%;
+  }
+
+  .microsoft img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .microsoft a {
+      margin-top: 15%;
+      display: block;
+      text-align: center;
+      font-size: 12px;
+      text-decoration: underline !important;
+      color: #0067b8;
+  }
+
+  .main-image {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 0 50px;
+  }
+
+  .image-contain {
+      width: 20%;
+      margin-top: 90px;
+  }
+
+  .image-contain img {
+      width: 100%;
+  }
+
+  .image-contain h2 {
+      font-size: 20px;
+      margin: 20px 0;
+  }
+
+  .image-contain p {
+      margin-bottom: 20px;
+  }
+
+  .image-contain a {
+      color: #0067b8;
+      font-weight: bold;
+  }
+
+  .image-contain a:hover {
+      text-decoration: underline;
+  }
+
+  .image-sell {
+      height: 450px;
+      background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Digital-Gaming-FY23HHM:VP5-1596x600);
+      margin: 95px 80px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .sell {
+      position: relative;
+      max-width: 1600px;
+      margin: 0 auto;
+  }
+
+  .text-sell {
+      width: 40%;
+      position: absolute;
+      top: 130px;
+      left: 159px;
+      color: white;
+      cursor: pointer;
+  }
+
+  .text-sell h2 {
+      font-size: 40px;
+      padding-bottom: 20px;
+  }
+
+  .text-sell p {
+      font-size: 18px;
+      padding-bottom: 30px;
+  }
+
+  .business h2 {
+      padding-left: 80px;
+      font-size: 25zpx;
+      margin-bottom: 20px;
+  }
+
+  .business-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 0 60px;
+  }
+
+  .business-box {
+      width: 22%;
+  }
+
+  .business-contain img {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .business-box h3 {
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 20px;
+  }
+
+  .business-box p {
+      margin-bottom: 20px;
+  }
+
+  .business-box a {
+      font-weight: bold;
+      font-size: 18px;
+      color: #0067b8;
+  }
+
+  .business-link {
+      margin-right: 25px;
+  }
+
+  .business-container a:hover {
+      text-decoration: underline !important;
+  }
+
+  .business-container a:hover span {
+      margin-left: 5px;
+  }
+
+  .card-img {
+      height: 450px;
+      background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-FY23HHM-KeyArt:VP5-1920x600);
+      margin-left: 80px;
+      margin-right: 80px;
+      margin-top: 60px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .card {
+      position: relative;
+      max-width: 1600px;
+      margin: 0 auto;
+  }
+
+  .card-text {
+      width: 30%;
+      position: absolute;
+      top: 90px;
+      left: 140px;
+      color: rgb(255, 255, 255);
+      cursor: pointer;
+  }
+
+  .card-text h2 {
+      font-size: 40px;
+      padding-bottom: 20px;
+  }
+
+  .card-text p {
+      font-size: 18px;
+      padding-bottom: 30px;
+  }
+
+  .change-footer {
+      text-align: center;
+      font-size: 30px;
+      margin-top: 20px;
+
+  }
+
+  .change-footer .circle {
+      border: 1px solid black;
+      border-radius: 100%;
+      width: 12px;
+      height: 12px;
+      display: inline-block;
+
+
+  }
+
+  .change-footer .dot {
+      background-color: black;
+  }
+
+  .social {
+      max-width: 1600px;
+      margin: 0 auto;
+  }
+
+  .social-item {
+      margin-top: 40px;
+      margin-left: 80px;
+      display: flex;
+
+  }
+
+  .social p {
+      margin-right: 60px;
+      font-size: 18px;
+  }
+
+  .social a {
+      margin-right: 20px;
+      font-size: 20px;
+  }
+
+  #footer {
+      background-color: #f2f2f2;
+      margin-top: 60px;
+  }
+
+  .d-flex {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1600px;
+      margin: 0 auto;
+  }
+
+  .column-item {
+      width: 16.6%;
+  }
+
+  .column-item .h2 {
+      display: inline-block;
+      color: #616161;
+      font-size: 15px;
+      font-weight: bold;
+      margin: 50px 0 20px 60px;
+  }
+
+  .column-item li {
+      font-size: 10px;
+      margin-bottom: 20px;
+  }
+
+  .column-item a {
+      color: #616161;
+  }
+
+  .column-item li:hover {
+      text-decoration: underline;
+  }
+
+  .column-item ul {
+      margin-left: 60px;
+  }
+
+  .footer-down {
+      width: 100%;
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 80px;
+  }
+
+  .footer-down a {
+      padding-right: 20px;
+      font-size: 10px;
+      color: #616161;
+  }
+
+  .footer-down a:hover {
+      text-decoration: underline;
+  }
+
+  @media only screen and (max-width: 1400px) {
+
+
+      .search-btn-none {
+          display: none;
+      }
+
+      .cart-none {
+          display: none;
+      }
+
+      .sign-none {
+          display: none;
+      }
+
+  }
+
+
+
+
+
+
+
+  @media only screen and (max-width: 1084px) {
+      #header {
+          padding: 0 40px;
+      }
+
+      .main-shop {
+          width: 50%;
+          display: flex;
+          flex-wrap: wrap;
+          margin: 30px 25px;
+      }
+
+
+      .aem-grid .microsoft {
+          width: 40%;
+          margin: auto;
+      }
+
+      .sell {
+          position: relative;
+          max-width: 1600px;
+          margin: 0 auto;
+          left: 0;
+          right: 0;
+          width: 100%;
+          padding-bottom: 50px;
+
+
+      }
+
+      .image-sell {
+          width: 100%;
+          margin: 0;
+      }
+
+      .sell {
+          position: relative;
+      }
+
+      .text-sell {
+          padding-top: 20px;
+          padding-left: 50px;
+          padding-bottom: 30px;
+          position: absolute;
+          width: 98%;
+          left: 0;
+          right: 0;
+          top: 390px;
+          margin: 10px !important;
+          color: black;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          background-color: #fff;
+
+      }
+
+      .text-sell h2 {
+          font-size: 30px;
+          padding-bottom: 20px;
+      }
+
+      .text-sell p {
+          font-size: 15px;
+          padding-bottom: 30px;
+      }
+
+      .text-sell a {
+          background-color: #0067b8;
+          color: white;
+          padding: 10px;
+      }
+
+      .business-box {
+          width: 45%;
+          margin-bottom: 40px;
+
+      }
+
+      .business-container {
+          margin: 0;
+      }
+
+      .business {
+          margin-top: 100px;
+      }
+
+      .card {
+          max-width: 1600px;
+          /* margin: 0 auto; */
+      }
+
+      .card-img {
+          width: 100%;
+          margin: 0;
+      }
+
+      .card-text {
+          padding-top: 20px;
+          padding-left: 50px;
+          padding-bottom: 30px;
+          width: 98%;
+          left: 10px;
+          right: 10px;
+          margin-top: 300px !important;
+          color: black;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          background-color: #fff;
+
+      }
+
+      .change-footer {
+          margin-top: 170px;
+      }
+
+      .social-item {
+          margin-left: 10px;
+      }
+
+      .column-item {
+          width: 33.3%;
+      }
+  }
+
+
+
+
+  @media only screen and (max-width: 860px) {
+      .logo {
+          margin: 15px auto;
+
+      }
+
+      .left-item {
+          display: none;
+      }
+
+      .bar-none {
+          display: none;
+      }
+
+      .a-none {
+          display: none;
+      }
+
+      .main-highlight {
+          position: absolute;
+          width: 100%;
+      }
+
+      .main-highlight {
+          background-position: left;
+          background-size: cover;
+      }
+
+      .main-text {
+          position: relative;
+          max-width: 1500px;
+          top: 380px;
+          width: 100%;
+          left: 0;
+          right: 0;
+          background-color: white;
+          padding: 20px;
+          margin: 0 10px;
+          height: 200px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+
+      .change {
+          position: relative;
+          top: 590px;
+      }
+
+      .aem-grid {
+          position: relative;
+          top: 600px;
+
+      }
+
+      .aem-grid .microsoft {
+          width: 40%;
+          margin: auto;
+      }
+
+      .image-contain {
+          width: 47%;
+          margin-top: 90px;
+      }
+
+      .main-image {
+          margin-top: 650px;
+      }
+
+      .business {
+          margin-top: 190px;
+      }
+
+      .card-text {
+          padding-top: 20px;
+          padding-left: 50px;
+          padding-bottom: 30px;
+          width: 100%;
+          left: 0;
+          right: 0;
+          color: black;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          background-color: #fff;
+      }
+
+      .change-footer {
+          position: relative;
+          margin-top: 170px;
+
+      }
+
+      .column-item {
+          width: 90%;
+      }
+  }
+
+
+
+  /* global */
+  a {
+      text-decoration: none;
+      color: #262626;
+
+  }
+
+  li {
+      list-style: none;
+  }
